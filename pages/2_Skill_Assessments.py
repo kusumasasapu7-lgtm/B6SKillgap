@@ -1,8 +1,6 @@
 from pathlib import Path
-
 import pandas as pd
 import streamlit as st
-
 from utils.csv_manager import EmployeeManager, JobRequirementManager, SkillAssessmentManager
 from utils.charting import require_plotly
 from utils.page_components import make_report, render_crud_page
@@ -14,13 +12,11 @@ manager = SkillAssessmentManager(ROOT / "data" / "skill_assessments.csv", ROOT /
 employee_source = EmployeeManager(ROOT / "data" / "employees.csv")
 requirement_source = JobRequirementManager(ROOT / "data" / "job_requirements.csv")
 
-
 def choices(source, column, fallback):
     try:
         return sorted(source.load()[column].dropna().astype(str).unique().tolist())
     except Exception:
         return fallback
-
 
 FIELDS = [
     {"name": "assess_id", "label": "Assessment ID", "default": "ASM-071"},
