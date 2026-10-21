@@ -25,17 +25,14 @@ These are project aims, not measured impact claims.
 - Friendly validation and file-operation messages instead of showing raw Python tracebacks.
 
 ## Dataset sources and transformations
-
-Access date for the source pages below: **2026-10-20**.
-
-### `employees.csv` — 30 rows
+### `employees.csv` 
 
 - **Dataset:** IBM HR Analytics Employee Attrition & Performance, a fictional/sample HR dataset.
 - **Source:** [Kaggle dataset listing](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset); the sample rows were cross-checked against a [public CSV mirror](https://raw.githubusercontent.com/trishabhardwaj-analyst/IBM-HR-Analytics-Employee-Attrition/main/WA_Fn-UseC_-HR-Employee-Attrition.csv). A [metadata mirror](https://portal.mardi4nfdi.de/wiki/Ibm-employee-attrition) records the Open Database License (ODbL) and Database Contents License (DbCL) for this dataset. Review the current source record's terms before further redistribution.
 - **How it was transformed:** the first 30 rows of the public sample were reduced to department, source job role, education ordinal, monthly income, and total working years. `emp_id` values (`EMP-001` onward) and anonymous names (`Employee_001` onward) were generated; no personal names were present or fabricated. IBM role titles were mapped to the closest selected O*NET occupation labels and the mapping is visible in `workforce_skill_gap` page choices and this data dictionary below. `education_level` maps the source ordinal to readable categories. `salary` is monthly income multiplied by 12; it has no currency label because the source field is unlabelled.
 - **Cleaning:** whitespace and role spellings are normalized; numeric fields are coerced and range checked; duplicate IDs and rows are removed.
 
-### `job_requirements.csv` — 35 rows
+### `job_requirements.csv` 
 
 - **Dataset:** selected occupation and skill ratings derived from the [O*NET 31.0 Database](https://www.onetcenter.org/database.html) and [O*NET OnLine occupation pages](https://www.onetonline.org/).
 - **License:** O*NET 31.0 database content is generally available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), subject to the exceptions listed by O*NET. Required attribution: “This project includes information from the O*NET 31.0 Database by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA). Used under the CC BY 4.0 license. Changes were made to role mappings, scale conversions, and row structure. O*NET® is a trademark of USDOL/ETA.” See the [official database license terms](https://www.onetcenter.org/license_db.html).
@@ -43,14 +40,14 @@ Access date for the source pages below: **2026-10-20**.
 - Five skills are included for each mapped occupation: Active Listening, Critical Thinking, Reading Comprehension, Speaking, and Active Learning. `demand` is the O*NET standardized Importance value (0–100). `min_level` converts the standardized O*NET Level value from 0–100 to the project's 0–7 range by multiplying by 7/100. `industry` is a broad project category assigned to each role. `avg_salary` is the mean annualized income of sample employees mapped to that role, not an O*NET wage estimate.
 - **Cleaning:** standard role names are normalized; numeric values are coerced and checked against the stated scale ranges; duplicate IDs are removed.
 
-### `skill_assessments.csv` — 70 rows
+### `skill_assessments.csv` 
 
 - **Dataset:** project-generated demonstration assessments. O*NET role requirements in `job_requirements.csv` provide each assessment's required level.
 - **Source / usage:** no external assessment dataset is copied. The employee IDs and skill labels link to the employee and requirement files.
 - **How it was transformed:** synthetic current levels and sample dates were created for demonstration. `required_level` is copied from the employee's mapped job-role and skill requirement; `gap` is calculated as `required_level - current_level`. These levels are teaching examples, not observed employee performance or a validated assessment instrument. The UI calculates `required_level` and `gap` when creating or updating records to prevent manual mismatch.
 - **Cleaning:** levels and dates are type converted and validated; duplicate IDs and rows are removed; invalid dates remain `NaT` if encountered in imported data.
 
-### `training_courses.csv` — 30 rows
+### `training_courses.csv`
 
 - **Dataset:** a curated set of course-title references from public [Coursera course listings](https://www.coursera.org/), mapped by project staff to the five project skill labels. Example listings: [Active Listening: Enhancing Communication Skills](https://www.coursera.org/learn/active-listening-enhancing-communication-skills), [Critical Thinking Skills for University Success](https://www.coursera.org/learn/critical-thinking-skills), [Introduction to Critical Reading & Research Writing](https://www.coursera.org/learn/critical-reading--research-writing), [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn), and [Introduction to Public Speaking](https://www.coursera.org/learn/public-speaking). The same-title references appearing under more than one skill are mapped separately by project staff.
 - **License / usage:** the course names are short references to third-party listings; course content is not copied. Coursera listing content is not presented as openly licensed. Listing availability, cost, ratings, and provider policies can change; links are provided for reference.
