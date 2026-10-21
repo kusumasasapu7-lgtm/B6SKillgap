@@ -1,8 +1,6 @@
 from pathlib import Path
-
 import pandas as pd
 import streamlit as st
-
 from utils.csv_manager import JobRequirementManager
 from utils.charting import require_plotly
 from utils.page_components import make_report, render_crud_page
