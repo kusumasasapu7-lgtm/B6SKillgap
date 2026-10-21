@@ -1,0 +1,31 @@
+emp_id,name,department,job_role,experience_yrs,education_level,salary
+EMP-001,Employee_001,Research & Development,Biological Technicians,7,Bachelor's,52944
+EMP-002,Employee_002,Sales,General and Operations Managers,12,Below College,171936
+EMP-003,Employee_003,Sales,General and Operations Managers,8,Below College,184572
+EMP-004,Employee_004,Research & Development,Biological Technicians,11,Bachelor's,67224
+EMP-005,Employee_005,Research & Development,"Medical Scientists, Except Epidemiologists",4,Bachelor's,49644
+EMP-006,Employee_006,Research & Development,Industrial Production Managers,26,Bachelor's,126840
+EMP-007,Employee_007,Research & Development,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",8,Bachelor's,76644
+EMP-008,Employee_008,Sales,General and Operations Managers,16,College,171240
+EMP-009,Employee_009,Research & Development,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",10,Bachelor's,103164
+EMP-010,Employee_010,Sales,Sales Managers,16,Bachelor's,83160
+EMP-011,Employee_011,Research & Development,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",22,Bachelor's,109152
+EMP-012,Employee_012,Human Resources,Human Resources Specialists,8,Master's,48348
+EMP-013,Employee_013,Sales,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",6,Bachelor's,51264
+EMP-014,Employee_014,Research & Development,"Medical Scientists, Except Epidemiologists",7,Bachelor's,69828
+EMP-015,Employee_015,Research & Development,"Medical Scientists, Except Epidemiologists",22,Master's,92364
+EMP-016,Employee_016,Research & Development,Biological Technicians,16,Master's,70008
+EMP-017,Employee_017,Research & Development,Biological Technicians,8,Master's,54540
+EMP-018,Employee_018,Research & Development,Industrial Production Managers,7,College,69240
+EMP-019,Employee_019,Research & Development,Biological Technicians,11,Below College,68064
+EMP-020,Employee_020,Research & Development,Biological Technicians,13,College,72756
+EMP-021,Employee_021,Research & Development,"Medical Scientists, Except Epidemiologists",23,College,87468
+EMP-022,Employee_022,Research & Development,Biological Technicians,11,Master's,80580
+EMP-023,Employee_023,Research & Development,"Medical Scientists, Except Epidemiologists",13,Bachelor's,71316
+EMP-024,Employee_024,Research & Development,"Medical Scientists, Except Epidemiologists",16,Below College,76632
+EMP-025,Employee_025,Research & Development,Biological Technicians,7,College,51420
+EMP-026,Employee_026,Sales,General and Operations Managers,23,College,212568
+EMP-027,Employee_027,Research & Development,Biological Technicians,24,Bachelor's,74688
+EMP-028,Employee_028,Research & Development,Biological Technicians,13,Master's,69012
+EMP-029,Employee_029,Research & Development,Biological Technicians,5,Master's,44496
+EMP-030,Employee_030,Research & Development,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",6,Master's,90408

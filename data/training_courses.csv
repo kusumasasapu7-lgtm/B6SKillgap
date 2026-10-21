@@ -1,0 +1,31 @@
+course_id,course_name,skill_name,provider,duration_hrs,cost,rating,mode
+CRS-001,Active Listening: Enhancing Communication Skills,Active Listening,Coursera,4,0,4.0,Hybrid
+CRS-002,Effective Communication Skills,Active Listening,Coursera,6,12,4.1,Online
+CRS-003,Communication Strategies for a Virtual Age,Active Listening,Coursera,8,25,4.2,Online
+CRS-004,Teamwork Skills: Communicating Effectively in Groups,Active Listening,Coursera,10,39,4.3,Online
+CRS-005,Improving Communication Skills,Active Listening,Coursera,12,49,4.4,Online
+CRS-006,Interpersonal Communication,Active Listening,Coursera,5,0,4.5,Online
+CRS-007,Critical Thinking Skills for University Success,Critical Thinking,Coursera,7,12,4.6,Online
+CRS-008,Critical Thinking Skills for Dummies,Critical Thinking,Coursera,14,25,4.7,Hybrid
+CRS-009,Creative Problem Solving,Critical Thinking,Coursera,9,39,4.8,Online
+CRS-010,Mindware: Critical Thinking for the Information Age,Critical Thinking,Coursera,11,49,4.9,Online
+CRS-011,Successful Negotiation: Essential Strategies & Skills,Critical Thinking,Coursera,3,0,4.0,Online
+CRS-012,Problem Solving Using Computational Thinking,Critical Thinking,Coursera,16,12,4.1,In-person
+CRS-013,Introduction to Critical Reading & Research Writing,Reading Comprehension,Coursera,6,25,4.2,Online
+CRS-014,Increase Reading Comprehension with Actively Learn,Reading Comprehension,Coursera,10,39,4.3,Online
+CRS-015,English for Career Development,Reading Comprehension,Coursera,8,49,4.4,Hybrid
+CRS-016,Academic English: Writing,Reading Comprehension,Coursera,5,0,4.5,Online
+CRS-017,"Verbal Mastery: Grammar, RC, Reasoning for Exams & Job Tests",Reading Comprehension,Coursera,13,12,4.6,Online
+CRS-018,Better Business Writing in English,Reading Comprehension,Coursera,7,25,4.7,Online
+CRS-019,Introduction to Public Speaking,Speaking,Coursera,9,39,4.8,Online
+CRS-020,Dynamic Public Speaking,Speaking,Coursera,4,49,4.9,Online
+CRS-021,"Speak English Professionally: In Person, Online & on the Phone",Speaking,Coursera,20,0,4.0,Online
+CRS-022,Successful Presentation,Speaking,Coursera,8,12,4.1,Hybrid
+CRS-023,Effective Communication Skills,Speaking,Coursera,18,25,4.2,In-person
+CRS-024,Communication Strategies for a Virtual Age,Speaking,Coursera,6,39,4.3,Online
+CRS-025,Learning How to Learn: Powerful mental tools to help you master tough subjects,Active Learning,Coursera,12,49,4.4,Online
+CRS-026,Foundations for Active Learning in STEM Courses,Active Learning,Coursera,10,0,4.5,Online
+CRS-027,Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential,Active Learning,Coursera,5,12,4.6,Online
+CRS-028,Better Learning,Active Learning,Coursera,14,25,4.7,Online
+CRS-029,Uncommon Sense Teaching,Active Learning,Coursera,7,39,4.8,Hybrid
+CRS-030,"Work Smarter, Not Harder: Time Management for Personal & Professional Productivity",Active Learning,Coursera,11,49,4.9,Online

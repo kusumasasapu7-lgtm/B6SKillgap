@@ -1,0 +1,36 @@
+req_id,job_role,industry,skill_name,min_level,demand,avg_salary
+REQ-001,Biological Technicians,Life Sciences & Research,Active Listening,3.99,72,64157.45
+REQ-002,Biological Technicians,Life Sciences & Research,Critical Thinking,3.99,69,64157.45
+REQ-003,Biological Technicians,Life Sciences & Research,Reading Comprehension,4.62,75,64157.45
+REQ-004,Biological Technicians,Life Sciences & Research,Speaking,3.78,60,64157.45
+REQ-005,Biological Technicians,Life Sciences & Research,Active Learning,3.85,63,64157.45
+REQ-006,General and Operations Managers,Commercial Operations,Active Listening,4.13,75,185079.0
+REQ-007,General and Operations Managers,Commercial Operations,Critical Thinking,3.85,72,185079.0
+REQ-008,General and Operations Managers,Commercial Operations,Reading Comprehension,3.99,75,185079.0
+REQ-009,General and Operations Managers,Commercial Operations,Speaking,4.13,75,185079.0
+REQ-010,General and Operations Managers,Commercial Operations,Active Learning,3.78,66,185079.0
+REQ-011,"Medical Scientists, Except Epidemiologists",Life Sciences & Research,Active Listening,4.27,75,74542.0
+REQ-012,"Medical Scientists, Except Epidemiologists",Life Sciences & Research,Critical Thinking,4.76,75,74542.0
+REQ-013,"Medical Scientists, Except Epidemiologists",Life Sciences & Research,Reading Comprehension,5.25,75,74542.0
+REQ-014,"Medical Scientists, Except Epidemiologists",Life Sciences & Research,Speaking,4.41,78,74542.0
+REQ-015,"Medical Scientists, Except Epidemiologists",Life Sciences & Research,Active Learning,4.97,78,74542.0
+REQ-016,Industrial Production Managers,Manufacturing & Operations,Active Listening,3.99,72,98040.0
+REQ-017,Industrial Production Managers,Manufacturing & Operations,Critical Thinking,3.99,75,98040.0
+REQ-018,Industrial Production Managers,Manufacturing & Operations,Reading Comprehension,3.99,72,98040.0
+REQ-019,Industrial Production Managers,Manufacturing & Operations,Speaking,3.99,75,98040.0
+REQ-020,Industrial Production Managers,Manufacturing & Operations,Active Learning,3.99,66,98040.0
+REQ-021,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Healthcare & Life Sciences,Active Listening,4.13,78,86126.4
+REQ-022,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Healthcare & Life Sciences,Critical Thinking,3.78,60,86126.4
+REQ-023,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Healthcare & Life Sciences,Reading Comprehension,4.13,69,86126.4
+REQ-024,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Healthcare & Life Sciences,Speaking,3.99,81,86126.4
+REQ-025,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Healthcare & Life Sciences,Active Learning,3.78,63,86126.4
+REQ-026,Sales Managers,Commercial Operations,Active Listening,3.99,75,83160.0
+REQ-027,Sales Managers,Commercial Operations,Critical Thinking,3.99,72,83160.0
+REQ-028,Sales Managers,Commercial Operations,Reading Comprehension,3.99,72,83160.0
+REQ-029,Sales Managers,Commercial Operations,Speaking,3.99,75,83160.0
+REQ-030,Sales Managers,Commercial Operations,Active Learning,3.85,69,83160.0
+REQ-031,Human Resources Specialists,Business Services,Active Listening,3.99,75,48348.0
+REQ-032,Human Resources Specialists,Business Services,Critical Thinking,3.99,72,48348.0
+REQ-033,Human Resources Specialists,Business Services,Reading Comprehension,3.99,75,48348.0
+REQ-034,Human Resources Specialists,Business Services,Speaking,3.99,78,48348.0
+REQ-035,Human Resources Specialists,Business Services,Active Learning,3.36,56,48348.0
